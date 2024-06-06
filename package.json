@@ -1,0 +1,27 @@
+{
+  "name": "bmp-js-browser",
+  "version": "1.0.0",
+  "description": "Javascript Decoding BMP Image to ImageData on Browser-side",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qianyongdong/bmp-js-browser"
+  },
+  "keywords": [
+    "bmp",
+    "1bit",
+    "4bit",
+    "8bit",
+    "16bit",
+    "24bit",
+    "32bit",
+    "decoder",
+    "image",
+    "javascript",
+    "js",
+    "browser",
+    "imageData"
+  ],
+  "author": "qianyongdong",
+  "license": "MIT"
+}
