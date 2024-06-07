@@ -23,8 +23,8 @@ fetch(src).then(async (res) => {
   const arrayBuffer = await res.arrayBuffer();
   const canvas = document.createElement('canvas');
   const imageData = decode(arrayBuffer);
-  canvas.value.width = imageData.width;
-  canvas.value.height = imageData.height;
+  canvas.width = imageData.width;
+  canvas.height = imageData.height;
   const ctx = canvas.getContext('2d');
   ctx.putImageData(imageData, 0, 0);
   document.body.appendChild(canvas);
